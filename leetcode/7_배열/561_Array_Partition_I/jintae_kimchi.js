@@ -1,4 +1,5 @@
 /**
+ * https://leetcode.com/problems/array-partition-i/
  * Given an integer array nums of 2n integers, 
  * group these integers into n pairs (a1, b1), (a2, b2), ..., (an, bn) such that the sum of min(ai, bi) 
  * for all i is maximized. Return the maximized sum.
@@ -28,12 +29,12 @@ Explanation: The optimal pairing is (2, 1), (2, 5), (6, 6). min(2, 1) + min(2, 5
  * @return {number}
  */
 var arrayPairSum = function (nums) {
-    nums.sort((a, b) => a - b);
-    let acc = 0;
-    for (let i = 0; i < nums.length; i += 2) {
-        acc += nums[i];
-    }
-    return acc;
+  nums.sort((a, b) => a - b);
+  let acc = 0;
+  for (let i = 0; i < nums.length; i += 2) {
+    acc += nums[i];
+  }
+  return acc;
 };
 /**
  * Runtime: 134 ms, faster than 72.78% of JavaScript online submissions for Array Partition I.
@@ -43,10 +44,10 @@ Memory Usage: 47.5 MB, less than 68.15% of JavaScript online submissions for Arr
  */
 
 const tcList = [
-    [[1, 4, 3, 2], 4],
-    [[6, 2, 6, 5, 1, 2], 9],
+  [[1, 4, 3, 2], 4],
+  [[6, 2, 6, 5, 1, 2], 9],
 ];
 tcList.forEach(([nums, expect]) => {
-    const ans = arrayPairSum(nums);
-    ans === expect ? console.log("pass") : console.error(`${ans} !== ${expect}`);
+  const ans = arrayPairSum(nums);
+  ans === expect ? console.log("pass") : console.error(`${ans} !== ${expect}`);
 });
