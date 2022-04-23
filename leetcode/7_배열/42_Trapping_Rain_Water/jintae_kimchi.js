@@ -1,5 +1,8 @@
 /**
  * https://leetcode.com/problems/trapping-rain-water/
+ * Runtime: 71 ms, faster than 86.20% of JavaScript online submissions for Trapping Rain Water.
+ * Memory Usage: 44.6 MB, less than 38.05% of JavaScript online submissions for Trapping Rain Water.
+ * 
  * Given n non-negative integers representing an elevation map where the width of each bar is 1, 
  * compute how much water it can trap after raining.
  * 
@@ -138,6 +141,16 @@ const solution = (height) => {
 
   return water_volume;
 };
+
+/**
+ * 책에서 풀이한 방법
+ * 1. 양쪽끝을 잡고 한줄씩 계산
+ * 양쪽 끝에서 시작하면서 가운데쪽으로 이동하면서 빗물 계산
+ * 포인트 둘이 만나면 종료
+ *
+ * 2. 스택을 이용한 풀이
+ * 스택에 각 높이를 넣다가 더 높은거 만나면 스택 꺼내면서 높이 계산
+ */
 
 const tcList = [
   [[0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1], 6],

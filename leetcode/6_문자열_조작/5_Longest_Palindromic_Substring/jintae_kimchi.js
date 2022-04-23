@@ -1,5 +1,8 @@
 /**
  * https://leetcode.com/problems/longest-palindromic-substring/
+ * Runtime: 140 ms, faster than 72.37% of JavaScript online submissions for Longest Palindromic Substring.
+ * Memory Usage: 50.3 MB, less than 20.37% of JavaScript online submissions for Longest Palindromic Substring.
+ * 
  * Given a string s, return the longest palindromic substring in s.
 
  

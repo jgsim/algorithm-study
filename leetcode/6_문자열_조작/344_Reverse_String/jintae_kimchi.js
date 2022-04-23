@@ -1,5 +1,8 @@
 /**
  * https://leetcode.com/problems/reverse-string/
+ * Runtime: 129 ms, faster than 59.24% of TypeScript online submissions for Reverse String.
+ * Memory Usage: 50 MB, less than 64.72% of TypeScript online submissions for Reverse String.
+ *
  * You must do this by modifying the input array in-place with O(1) extra memory.
  * Do not return anything, modify s in-place instead.
  */
