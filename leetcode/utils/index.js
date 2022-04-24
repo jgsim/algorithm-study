@@ -12,3 +12,8 @@ exports.linkConcat = (node) => {
 
   return str;
 };
+
+exports.arrayResult = (array) => {
+  if (!Array.isArray(array)) return "";
+  return JSON.stringify(array);
+};
