@@ -64,7 +64,7 @@ var combinationSum_refactored = function (candidates, target) {
     for (let i = startIdx; i < candidates.length; i++) {
       history.push(candidates[i]);
       fn(history, i);
-      history.pop(candidates[i]);
+      history.pop();
     }
   };
   fn([], 0);
