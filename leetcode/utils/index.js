@@ -26,7 +26,7 @@ exports.runTestCase = (tcList, solution, assertFn) => {
       throw "테스트 파라미터는 배열 형태로 만들어야 함";
     }
     const result = solution(...params);
-    assertFn && typeof assertFn === "fuction"
+    assertFn && typeof assertFn === "function"
       ? assertFn(result, expect)
       : assert.deepEqual(result, expect);
   });
