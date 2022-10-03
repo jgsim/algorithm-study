@@ -30,7 +30,7 @@ var removeDigit = function (number, digit) {
 
   return number.slice(0, ansIndex) + number.slice(ansIndex + 1, number.length);
 };
-const { runTestCase } = require("../../../utils");
+const { runTestCase } = require("../../../leetcode/utils");
 
 runTestCase(
   [
