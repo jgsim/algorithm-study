@@ -1,5 +1,7 @@
 /**
  * https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/
+ * You are here! Your runtime beats 74.41 % of javascript submissions.
+ * You are here! Your memory usage beats 25.59 % of javascript submissions.
  * 성능이슈로 제출하지 못함
  * 서브셋 구성 => 그냥 전체를 탐색하면 되는데 최적화 해야 한다는 생각때문에 시간날림(나누는 코드 자체는 작성함)
  * 최대공약수 구하기 => for문으로 내가 아는 방법대로 두 수를 계속 나누어보는 코드는 타임아웃 발생하였음
