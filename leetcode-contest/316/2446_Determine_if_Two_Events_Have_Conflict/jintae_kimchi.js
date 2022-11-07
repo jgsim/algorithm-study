@@ -1,5 +1,7 @@
 /**
  * https://leetcode.com/problems/determine-if-two-events-have-conflict/
+ * You are here! Your runtime beats 9.21 % of javascript submissions.
+ * You are here! Your memory usage beats 73.48 % of javascript submissions.
  * 이벤트 두개의 시작-끝 부분을 비교하면 겹치는지 확인할 수 있다
  * @param {string[]} event1
  * @param {string[]} event2
