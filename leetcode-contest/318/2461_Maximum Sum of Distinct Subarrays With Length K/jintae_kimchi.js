@@ -1,5 +1,7 @@
 /**
  * https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/
+ * You are here! Your runtime beats 46.91 % of javascript submissions.
+ * You are here! Your memory usage beats 93.81 % of javascript submissions.
  * k개 만큼 nums 배열 연속으로 잘라서 가장 큰 합을 구하는데
  * 중복되는 요소가 있으면 안됨
  * 만약 못찾으면 0 리턴
