@@ -1,5 +1,7 @@
 /**
  * https://leetcode.com/problems/apply-operations-to-an-array/
+ * You are here! Your runtime beats 8.63 % of javascript submissions.
+ * You are here! Your memory usage beats 59.03 % of javascript submissions.
  * i 인덱스 값과 i + 1 인덱스 값이 같으면 i 값 * 2 하고 i+1 값은 0으로
  * 끝까지 계산 후 0인 값을 뒤로 보냄
  * 중간계산 결과도 바로 반영하면 됨
