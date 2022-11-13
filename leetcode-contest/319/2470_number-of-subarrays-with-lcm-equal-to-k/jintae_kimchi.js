@@ -1,4 +1,8 @@
 /**
+ * https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/
+ */
+
+/**
  * nums 부분배열 요소들이 k의 공배수인지 검사하고 해당하는 서브배열의 개수 구하기
  *
  * @param {number[]} nums
