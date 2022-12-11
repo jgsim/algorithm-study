@@ -23,7 +23,7 @@ var deleteGreatestValue = function (grid) {
   return ans;
 };
 
-const { runTestCase } = require("../../../../leetcode/utils");
+const { runTestCase } = require("../../../leetcode/utils");
 
 runTestCase(
   [

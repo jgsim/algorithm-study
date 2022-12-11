@@ -24,7 +24,7 @@ var longestSquareStreak = function (nums) {
   return maxLen;
 };
 
-const { runTestCase } = require("../../../../leetcode/utils");
+const { runTestCase } = require("../../../leetcode/utils");
 
 runTestCase(
   [
