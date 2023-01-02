@@ -105,7 +105,7 @@ const minScoreRetry2 = (n = 2, roads = []) => {
  * 나중에 자바스크립트 예제 많아지면 보는걸로
  */
 
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

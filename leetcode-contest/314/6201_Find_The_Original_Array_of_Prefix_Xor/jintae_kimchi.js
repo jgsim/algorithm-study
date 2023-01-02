@@ -11,7 +11,7 @@ var findArray = function (pref) {
   return ans;
 };
 //18 left
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

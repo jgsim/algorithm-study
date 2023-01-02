@@ -60,7 +60,7 @@ var leastInterval = function (tasks, n) {
   );
 };
 
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

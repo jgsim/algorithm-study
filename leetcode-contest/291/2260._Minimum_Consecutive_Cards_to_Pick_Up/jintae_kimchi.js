@@ -22,7 +22,7 @@ var minimumCardPickup2 = function (cards) {
   return minLen !== Infinity ? minLen + 1 : -1;
 };
 
-const { runTestCase } = require("../../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 
 runTestCase(
   [

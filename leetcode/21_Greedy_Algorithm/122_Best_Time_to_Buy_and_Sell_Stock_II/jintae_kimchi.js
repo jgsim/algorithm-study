@@ -23,7 +23,7 @@ var maxProfit = function (prices) {
   return profit;
 };
 
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

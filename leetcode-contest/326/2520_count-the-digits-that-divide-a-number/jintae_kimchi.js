@@ -21,7 +21,7 @@ var countDigits = function (num) {
 };
 // 1 19
 
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

@@ -20,7 +20,7 @@ var applyOperations = function (nums) {
   return head.concat(new Array(nums.length - head.length).fill(0));
 };
 // The contest has started. (1 hour 17 minutes 12 seconds left)
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

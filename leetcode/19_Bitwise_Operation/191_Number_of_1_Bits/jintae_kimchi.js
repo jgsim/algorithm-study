@@ -34,7 +34,7 @@ const hammingWeight2 = (n) => {
   return count;
 };
 
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

@@ -41,7 +41,7 @@ var smallestValue = function (n) {
   return find(n);
 };
 
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

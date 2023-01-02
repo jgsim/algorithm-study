@@ -34,7 +34,7 @@ var kClosest = function (points, k) {
     .sort(([x1, y1], [x2, y2]) => x1 ** 2 + y1 ** 2 - (x2 ** 2 + y2 ** 2))
     .slice(0, k);
 };
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

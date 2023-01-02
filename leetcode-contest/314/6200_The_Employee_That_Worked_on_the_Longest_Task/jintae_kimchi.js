@@ -24,7 +24,7 @@ var hardestWorker = function (n, logs) {
 };
 // 53 left
 
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

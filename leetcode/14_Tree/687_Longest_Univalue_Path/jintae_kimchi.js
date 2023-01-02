@@ -68,7 +68,7 @@ var longestUnivaluePath = function (root) {
   return max;
 };
 
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 const tcList = [
   {
     // params: [5, 4, 5, 1, 1, 5],

@@ -73,7 +73,7 @@ const search_ez = function (nums, target) {
   return nums.indexOf(target);
 };
 
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     { params: [[1, 3, 5], 4], expect: -1 },

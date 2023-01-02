@@ -57,7 +57,7 @@ var isPossible = function (n, edges) {
   return false;
 };
 
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     // {

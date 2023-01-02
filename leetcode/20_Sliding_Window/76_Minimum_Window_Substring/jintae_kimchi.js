@@ -116,7 +116,7 @@ var minWindow = function (s, t) {
   return s.slice(minLeft, minRight + 1);
 };
 
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

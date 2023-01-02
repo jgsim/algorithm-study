@@ -181,7 +181,7 @@ var networkDelayTime_clever = function (times, n, k) {
 };
 
 // --------------------------------------------------
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 const tcList = [
   {
     inputs: [

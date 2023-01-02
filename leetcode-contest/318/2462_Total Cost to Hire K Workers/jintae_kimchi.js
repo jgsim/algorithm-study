@@ -55,7 +55,7 @@ var totalCost = function (costs, k, candidates) {
 };
 // 브루트 포스로 2분남기고 타임아웃으로 실패
 
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

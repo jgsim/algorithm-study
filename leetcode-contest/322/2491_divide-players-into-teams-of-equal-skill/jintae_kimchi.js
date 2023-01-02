@@ -28,7 +28,7 @@ var dividePlayers = function (skill) {
   return chemistry(teams);
 };
 // The contest has started. (1 hour 5 minutes 59 sec
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

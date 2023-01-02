@@ -58,7 +58,7 @@ var diffWaysToCompute = function (expression) {
   return divideAndConquer(expression);
 };
 
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

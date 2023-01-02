@@ -71,7 +71,7 @@ var maxSum = function (grid) {
   return max;
 };
 
-const { runTestCase } = require("../../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 console.time("a");
 runTestCase(
   [
