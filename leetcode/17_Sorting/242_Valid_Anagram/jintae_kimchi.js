@@ -22,7 +22,7 @@ var isAnagram = function (s, t) {
   return s.split("").sort().join("") === t.split("").sort().join("");
 };
 
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

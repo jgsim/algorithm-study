@@ -42,7 +42,7 @@ var findContentChildren = function (g, s) {
   return output;
 };
 
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

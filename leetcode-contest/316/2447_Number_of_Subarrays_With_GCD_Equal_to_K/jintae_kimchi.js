@@ -34,7 +34,7 @@ const subarrayGCD = (nums, k) => {
   return count;
 };
 
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

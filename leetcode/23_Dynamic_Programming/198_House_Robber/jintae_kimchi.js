@@ -165,7 +165,7 @@ const solution = (nums) => {
   return Math.max(y, z);
 };
 
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

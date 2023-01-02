@@ -19,7 +19,7 @@ var commonFactors = function (a, b) {
   return result;
 };
 
-const { runTestCase } = require("../../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

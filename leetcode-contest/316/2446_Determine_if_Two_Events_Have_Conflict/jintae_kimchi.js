@@ -25,7 +25,7 @@ var haveConflict = function (event1, event2) {
 };
 // 아.. 25분 씀
 
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

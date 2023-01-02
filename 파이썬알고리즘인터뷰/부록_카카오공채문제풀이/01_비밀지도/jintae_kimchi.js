@@ -21,7 +21,7 @@ const secretMap = (n, arr1, arr2) => {
   return arr1;
 };
 
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

@@ -65,7 +65,7 @@ const dartGame = (dataResult) => {
   return calc(split(dataResult));
 };
 
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

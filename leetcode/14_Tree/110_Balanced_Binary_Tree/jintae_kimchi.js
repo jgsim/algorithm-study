@@ -78,7 +78,7 @@ var isBalanced = function (root) {
   return answer;
 };
 
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 const tcList = [
   {
     // [1,2,3,4,5,6,null,8]

@@ -21,7 +21,7 @@ var convertTemperature = function (celsius) {
 };
 // 10min
 
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

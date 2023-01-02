@@ -49,7 +49,7 @@ var closestPrimes = function (left, right) {
 };
 // 3min
 
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

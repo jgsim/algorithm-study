@@ -120,7 +120,7 @@ var buildTree_bad = function (preorder, inorder) {
   return root;
 };
 
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 const tcList = [
   //   {
   //     params: [

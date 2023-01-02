@@ -46,7 +46,7 @@ var subarrayLCM = function (nums, k) {
   return count;
 };
 
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

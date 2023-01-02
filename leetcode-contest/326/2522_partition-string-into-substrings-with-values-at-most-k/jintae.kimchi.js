@@ -22,7 +22,7 @@ var minimumPartition = function (s, k) {
   return count + 1; // 마지막 값은 항상 작은게 남아 있으므로
 };
 // 20
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     // {

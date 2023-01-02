@@ -61,7 +61,7 @@ const twSumSolution = (numbers, sums) => {
   }
 };
 
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

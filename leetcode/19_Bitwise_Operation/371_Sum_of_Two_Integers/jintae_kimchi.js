@@ -40,7 +40,7 @@ var getSum = function (a, b) {
   return a;
 };
 
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

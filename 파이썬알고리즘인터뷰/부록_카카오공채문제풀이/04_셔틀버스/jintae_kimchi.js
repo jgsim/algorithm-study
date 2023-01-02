@@ -58,7 +58,7 @@ const solution = (n, t, m, timetable) => {
   // 결과값 반환
   return simulate(n, t, m, busTable, crewTable);
 };
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

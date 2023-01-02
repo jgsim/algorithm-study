@@ -43,7 +43,7 @@ var distinctPrimeFactors = function (nums) {
 };
 // 39
 
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

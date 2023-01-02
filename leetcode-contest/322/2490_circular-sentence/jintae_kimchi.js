@@ -20,7 +20,7 @@ var isCircularSentence = function (sentence) {
   return true;
 };
 // (1 hour 22 minutes 25 seconds left)
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

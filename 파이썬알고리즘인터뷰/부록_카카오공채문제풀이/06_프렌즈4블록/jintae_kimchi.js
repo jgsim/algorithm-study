@@ -67,7 +67,7 @@ const solution = (m, n, board) => {
   return score;
 };
 
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

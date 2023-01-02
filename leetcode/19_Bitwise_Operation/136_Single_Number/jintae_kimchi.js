@@ -18,7 +18,7 @@ var singleNumber = function (nums) {
   return nums.reduce((ans, val) => ans ^ val);
 };
 
-const { runTestCase } = require("../../utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

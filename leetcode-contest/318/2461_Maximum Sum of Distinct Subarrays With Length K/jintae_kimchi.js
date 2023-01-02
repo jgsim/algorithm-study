@@ -53,7 +53,7 @@ var maximumSubarraySum = function (nums, k) {
 
 // The contest has started. (30 minutes 10 seconds left
 
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {

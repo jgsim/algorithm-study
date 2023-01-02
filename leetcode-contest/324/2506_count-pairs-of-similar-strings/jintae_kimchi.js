@@ -23,7 +23,7 @@ var similarPairs = function (words) {
 };
 // 1 15
 
-const { runTestCase } = require("../../../leetcode/utils");
+const { runTestCase } = require("../../../jtkim/leetcodeTesting");
 runTestCase(
   [
     {
