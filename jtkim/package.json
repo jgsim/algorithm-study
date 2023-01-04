@@ -1,0 +1,17 @@
+{
+  "name": "jtkim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "leetcodeTesting.js",
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
