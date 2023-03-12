@@ -28,36 +28,4 @@ function maxNumOfMarkedIndices(nums: number[]): number {
   }
 
   return ans;
-
-  // nums.sort((a, b) => a - b);
-  // const map: { [K: string]: number } = {};
-  // // 맵에 개수 기록
-  // for (let i = 0; i < nums.length; i++) {
-  //   if (!map[nums[i]]) {
-  //     map[nums[i]] = 0;
-  //   }
-  //   map[nums[i]] += 1;
-  // }
-  // // 누적값 적용
-  // const orderedKeys = Object.keys(map)
-  //   .map((x) => +x)
-  //   .sort((a, b) => a - b);
-  // for (let i = orderedKeys.length - 2; i >= 0; i--) {
-  //   const key = orderedKeys[i];
-  //   const prevKey = orderedKeys[i + 1];
-  //   map[key] += map[prevKey];
-  // }
-
-  // // 답 계산
-  // let ans = 0;
-  // for (let i = 0; i < nums.length; i++) {
-  //   const target = nums[i] * 2;
-  //   // 가까운 다음 값 찾기
-  //   const targetKey = orderedKeys.find((key) => key >= target);
-  //   if (targetKey) {
-  //     ans += map[targetKey];
-  //   }
-  // }
-
-  // return ans;
 }
