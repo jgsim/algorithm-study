@@ -29,7 +29,7 @@
  * 순수 내 실력으로 푼 느낌은 아님..
  */
 
-function solution(A: number[]): number {
+function floodDepth(A: number[]): number {
   const leftArr: number[] = [];
   const rightArr: number[] = [];
   const len = A.length;

@@ -23,7 +23,7 @@
  * 아무리 급해도 입출력을 자세히 숙지하자..
  */
 
-function solution(S: string): number {
+function longestPassword(S: string): number {
   // a-z, A-Z, 0-9
   const words = S.split(" ")
     .filter((word) => {
