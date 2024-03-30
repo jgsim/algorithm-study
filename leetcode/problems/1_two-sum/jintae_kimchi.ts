@@ -1,6 +1,7 @@
 /**
  * https://leetcode.com/problems/two-sum/
- * Runtime 58 ms Beats 97% Memory 45.7 MB Beats 21.69%
+ * Runtime 58 ms Beats 85.65% of users with TypeScript
+ * Memory 45.67 MB Beats 100.00% of users with TypeScript
  *
  * 문제)
  * 정수배열의 두 요소를 더해서 target 값이 나오는 경우의 두 인덱스 리턴
@@ -23,3 +24,55 @@ function twoSum(nums: number[], target: number): number[] {
   }
   throw new Error("unexpected");
 }
+
+/**
+ * Runtime 74 ms Beats 44.91% of users with TypeScript
+ * Memory 52.03 MB Beats 77.50% of users with TypeScript
+ *
+ * 실전에선 이정도 퍼포먼스로 해결할 수 있었다..
+ * diff 값 찾는 방향이 다르고 diff 관리 자료구조가 다른 정도
+ */
+function twoSum_240330(nums: number[], target: number): number[] {
+  // diff, index
+  const diffMap: { [key: number]: number } = {};
+  for (let i = 0; i < nums.length; i++) {
+    const num = nums[i];
+    const diff = target - num;
+    const diffNum = diffMap[num];
+    if (diffNum > -1 && diffNum !== i) {
+      return [diffMap[num], i].sort((a, b) => a - b);
+    }
+    diffMap[diff] = i;
+  }
+  throw new Error("Unexpected");
+}
+
+// runTestCase({
+//   solution: twoSum,
+//   tcList: [
+//     {
+//       params: [[1, 2, 3, 4], 3],
+//       expect: [0, 1],
+//     },
+//     {
+//       params: [[1, 2, 2, 4], 5],
+//       expect: [0, 3],
+//     },
+//     {
+//       params: [[1, 2, 3, 4], 7],
+//       expect: [2, 3],
+//     },
+//     {
+//       params: [[3, 2, 4], 6],
+//       expect: [1, 2],
+//     },
+//     {
+//       params: [[2, 7, 11, 15], 9],
+//       expect: [0, 1],
+//     },
+//     {
+//       params: [[3, 3], 6],
+//       expect: [0, 1],
+//     },
+//   ],
+// });
